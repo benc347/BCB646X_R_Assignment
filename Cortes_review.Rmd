@@ -1,0 +1,14 @@
+---
+title: "Cortes_review"
+author: "Ben Cortes"
+date: "October 14, 2018"
+output: html_document
+---
+
+Awesome! The code ran well. Just a couple of notes:
+
+  For separating out the rows based on chromosome, ideally you wouldn't hard code the iteration (in other words, you wouldn't count the number of chromosomes and then use that as the iteration). If you were working with a different organism, then you would have to count the number of chromosomes each time. Alternatively, you could modify the iteration so that it only iterated through the number of unique values in the chromosome column. Anyway, it's not a big deal at all, but I thought I'd mention it.
+  
+  On line 225, why did you not include the TRIPS group in your analysis?
+  
+  For the graph on line 261, I think we were supposed to standardize the bars so that they showed overall proportions.
